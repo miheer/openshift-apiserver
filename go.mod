@@ -18,7 +18,7 @@ require (
 	github.com/jteeuwen/go-bindata v3.0.8-0.20151023091102-a0ff2567cfb7+incompatible
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opencontainers/image-spec v1.0.3-0.20220114050600-8b9d41f48198
-	github.com/openshift/api v0.0.0-20230718161610-2a3e8b481cec
+	github.com/openshift/api v0.0.0-20230802190806-ec737413b77a
 	github.com/openshift/apiserver-library-go v0.0.0-20230503174907-d9b2bf6185e9
 	github.com/openshift/build-machinery-go v0.0.0-20220913142420-e25cf57ea46d
 	github.com/openshift/client-go v0.0.0-20230503144108-75015d2347cb
@@ -27,17 +27,17 @@ require (
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/pflag v1.0.5
 	go.etcd.io/etcd/client/v3 v3.5.7
-	k8s.io/api v0.27.2
-	k8s.io/apiextensions-apiserver v0.27.2
-	k8s.io/apimachinery v0.27.2
-	k8s.io/apiserver v0.27.2
-	k8s.io/client-go v0.27.2
+	k8s.io/api v0.27.4
+	k8s.io/apiextensions-apiserver v0.27.4
+	k8s.io/apimachinery v0.27.4
+	k8s.io/apiserver v0.27.4
+	k8s.io/client-go v0.27.4
 	k8s.io/cloud-provider v0.27.2
 	k8s.io/code-generator v0.27.2
-	k8s.io/component-base v0.27.2
+	k8s.io/component-base v0.27.4
 	k8s.io/component-helpers v0.27.2
 	k8s.io/klog/v2 v2.90.1
-	k8s.io/kube-aggregator v0.27.2
+	k8s.io/kube-aggregator v0.27.4
 	k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f
 	k8s.io/kubectl v0.27.2
 	k8s.io/kubernetes v1.27.2
@@ -170,7 +170,7 @@ require (
 	k8s.io/cli-runtime v0.27.2 // indirect
 	k8s.io/controller-manager v0.27.2 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.27.2 // indirect
+	k8s.io/kms v0.27.4 // indirect
 	k8s.io/kubelet v0.27.2 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.2 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
@@ -212,3 +212,5 @@ replace (
 	k8s.io/pod-security-admission => k8s.io/pod-security-admission v0.27.2
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.27.2
 )
+
+replace github.com/openshift/library-go => github.com/miheer/library-go v0.0.0-20230804052325-34d7abfbd051
